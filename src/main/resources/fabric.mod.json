@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "brokenforkmod",
+  "version": "${version}",
+  "name": "BrokenForkMod",
+  "description": "Adding Bedrock Dimension and related tool/armor sets",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/brokenforkmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.sam.brokenforkmod.client.BrokenForkModClient"
+    ],
+    "main": [
+      "org.sam.brokenforkmod.BrokenForkMod"
+    ]
+  },
+  "mixins": [
+    "brokenforkmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

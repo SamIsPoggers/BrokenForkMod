@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.sam.brokenforkmod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ItemRendererAccessor",
+    "ItemRendererMixin",
+    "ModelLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
